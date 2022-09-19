@@ -60,7 +60,7 @@ function SortVisual() {
     const [carr, setarr] = useState(arr);
     // const [cspeed,setspeed]  = useState(speed);
     // const [csize,setsize] = useState(size);
-    var delay_time = 10000 / (Math.floor(csize / 20) * cspeed);
+    var delay_time = 10000 / (Math.floor(csize / 20 +20) * cspeed);
 
     // function flagchange(){
     //     setflag(prev => !prev);
